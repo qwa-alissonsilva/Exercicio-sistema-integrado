@@ -1,8 +1,12 @@
 package entities;
 
-import java.util.Arrays;
-import java.util.List;
+import application.Categoria;
 
 public class Produtos {
-	public List<String> produtos = Arrays.asList("camisa", "calça", "tênis");
+	private String id;
+	private String name;
+	private String preco;
+	private Categoria categoria;
+	
+	
 }
